@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>In the Subway</title>
+</head>
+<body>
+<section class="top">
+	<!-- <h1>I</h1> -->
+	<img src="img/title.svg" id="title">
+	<br>
+	<!-- overlay -->
+	<ul class="navigation">
+		<li class="nav" onclick="openNav()">about</li>
+		<li class="nav"><a href="mailto:ta273@cornell.edu?Subject=Manhattan%20Through%20Subway" target="_top">contact</a></li>
+	</ul>
+	<!-- The overlay -->
+	<div id="myNav" class="overlay">
+  	<!-- Button to close the overlay navigation -->
+  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  	<!-- Overlay content -->
+  	<div class="overlay-content">
+    	<p class="about"><span class="emphasis">“What would it be like to travel from one side of Manhattan to other, visiting every subway station on the line?”</span>
+    	<br><br>
+		In the Subway is an online interactive exhibition of subway stations in Manhattan, New York City. I visited and captured parts of every station along the C train, starting from one side of Manhattan - Fulton Street station - to the other side of Manhattan - 168th station.
+		<br><br>
+		The project started on a rainy day in April.  I was never a fan of roaming around the city in the rain. As I was mapping out indoor places I could visit in my head and about to leave 34th Street subway station, I thought “What would it be like to travel from one side of Manhattan to other, visiting every subway station on the line?” I hopped back on the train, heading downtown, ready to experience something new.
+		<br><br>
+		This journey was definitely interesting. It gave me all kinds of feelings - from being scared to being super excited - similar to when I walked around Manhattan through different neighborhoods. An experience like this is, I think, difficult to encounter in today’s digital age. We are so busy moving from one thing to another and delved so deeply into content on our phone screens, we often ignore our surroundings, feelings and opportunities to experience new things. This is my first step to enjoy and let the surroundings inspire me to create things.
+		<br><br>
+		I hope you enjoy this experience, and please feel free to reach out if you want to talk more about the project or hop on a different train together sometime!
+		<br><br>
+		A huge shoutout to <span><a class="chelsea" href="http://chelseachan.me">Chelsea Chan</a></span> for editing the sounds I recorded during the journey. 
+		<br><br>
+		With love,<br>
+		Mind Apivessa
+  </div>
+
+</div>
+
+</section>
+<!--station--> <!--data-date is used to link the station name-->
+<section class="cd-horizontal-timeline">
+<div class="slider">
+	<div class="img"><img src="img/blue_c/b_fulton.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_chambers.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_canal.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_spring.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_4.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_14.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_23.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_34.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_42.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_50.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_59.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_72.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_81.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_86.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_96.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_103.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_110.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_116.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_125.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_135.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_145.jpg" height="100%"></div>
+	<div class="img"><img src="img/blue_c/b_155.jpg" height="100%"></div>
+	<!-- need to get the 163-->
+	<div class="img"><img src="img/blue_c/b_163.svg" height="422px"></div>
+	<div class="img"><img src="img/blue_c/b_168.jpg" id="last" height="100%"></div>
+</div>
+<!--gallery-->
+	<div class="events-content">
+	</div> <!-- .events-content -->
+
+	
+	
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol> <!-- not sure why yet but the difference between first two dates has to be different-->
+					<li><a href="#0" data-date="04/01/2017" class="selected">Fulton<br>Street</a></li>
+					<li><a href="#0" data-date="05/01/2017">Chambers<br>Street</a></li>
+					<li><a href="#0" data-date="07/01/2017">Canal<br>Street</a></li>
+					<li><a href="#0" data-date="09/01/2017">Spring<br>Street</a></li>
+					<li><a href="#0" data-date="11/01/2017">West 4<br>Street</a></li>
+					<li><a href="#0" data-date="13/01/2017">14<br>Street</a></li>
+					<li><a href="#0" data-date="15/01/2017">23<br>Street</a></li>
+					<li><a href="#0" data-date="17/01/2017">34<br>Street</a></li>
+					<li><a href="#0" data-date="19/01/2017">42<br>Street</a></li>
+					<li><a href="#0" data-date="21/01/2017">50<br>Street</a></li>
+					<li><a href="#0" data-date="23/01/2017">59<br>Street</a></li>
+					<li><a href="#0" data-date="25/01/2017">72<br>Street</a></li> 
+					<li><a href="#0" data-date="27/01/2017">81<br>Street</a></li>
+					<li><a href="#0" data-date="29/01/2017">86<br>Street</a></li>
+					<li><a href="#0" data-date="31/01/2017">96<br>Street</a></li>
+					<li><a href="#0" data-date="02/02/2017">103<br>Street</a></li>
+					<li><a href="#0" data-date="04/02/2017">110<br>Street</a></li>
+					<li><a href="#0" data-date="06/02/2017">116<br>Street</a></li>
+					<li><a href="#0" data-date="08/02/2017">125<br>Street</a></li>
+					<li><a href="#0" data-date="10/02/2017">135<br>Street</a></li>
+					<li><a href="#0" data-date="12/02/2017">145<br>Street</a></li>
+					<li><a href="#0" data-date="14/02/2017">155<br>Street</a></li>
+					<li><a href="#0" data-date="16/02/2017">163<br>Street</a></li>
+					<li><a href="#0" data-date="18/02/2017">168<br>Street</a></li>
+					
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+				
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+	
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+
+	</div> <!-- .timeline -->
+	<div id="audio">
+		<audio loop id="background_audio" autoplay="autoplay">
+  			<source src="sound/music.mp3" />
+		</audio> 
+		<a href="#noscroll" id="mute"><img src="img/headphone.svg" class="headphone_img"><span class="mute_text">mute the surroundings</span></a>
+	</div>
+	
+</section>
+	
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script>
+
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>
